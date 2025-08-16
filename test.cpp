@@ -31,5 +31,9 @@ int main() {
     cout << "first branch";
     cout << "first branch";
     cout << "first branch";
+
+    cout << "second branch";
+    cout << "second branch";
+    cout << "second branch";
     return 0;
 }
