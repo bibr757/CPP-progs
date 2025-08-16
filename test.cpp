@@ -25,5 +25,7 @@ int main() {
     for (string i : split(s,"mk"))
         cout << i << '\n';
     cout << "main branch";
+    cout << "main branch";
+    cout << "main branch";
     return 0;
 }
