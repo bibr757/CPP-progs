@@ -33,6 +33,9 @@ int main() {
     cout << a.ln;
     auto fst = find_i(s.begin(), s.end(), a);
     cout << string(fst, fst + a.ln);
+
+
+
     for (char i : to_array("fghk")) {
         cout << i << "\t";
     }
