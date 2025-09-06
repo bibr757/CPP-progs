@@ -1,0 +1,14 @@
+{
+    "name": "GCC + GDB",
+    "type": "cppdbg",
+    "request": "launch",
+    "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+    "args": [],
+    "stopAtEntry": true,
+    "cwd": "${fileDirname}",
+    "environment": [],
+    "externalConsole": true,
+    "MIMode": "gdb",
+    "miDebuggerPath": "gdb",
+    "preLaunchTask": "build cpp"
+}

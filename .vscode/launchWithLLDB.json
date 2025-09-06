@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run C++ with CodeLLDB",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}",
+            "args": [],
+            "cwd": "${fileDirname}",
+            "preLaunchTask": "build cpp",
+            "stopOnEntry": true,
+            "terminal": "integrated"
+        }
+    ]
+}
